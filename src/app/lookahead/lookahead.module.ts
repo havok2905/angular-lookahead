@@ -6,6 +6,9 @@ import { LookaheadComponent } from './lookahead.component';
   imports: [
     CommonModule
   ],
+  exports: [
+    LookaheadComponent
+  ],
   declarations: [LookaheadComponent]
 })
 export class LookaheadModule { }
